@@ -1,0 +1,5 @@
+.idea/
+node_modules/
+public/*
+src/3rd-party/*
+.DS_Store
