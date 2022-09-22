@@ -2,7 +2,7 @@
 
 ## 介绍
 
-主要是用来学习调试 **React** 源码的基础项目，配置文件只适配 Webpack 5，可以把 webpack.base.js 的
+主要是用来学习调试 **React** 源码的基础项目，配置文件只适配 NodeJS v16+ 跟 Webpack 5，可以把 webpack.base.js 的
 
 ```javascript
 const path = require("path");
@@ -23,7 +23,7 @@ module.exports = {
 }
 ```
 
-改一下就能做为一个模板项目。
+改一下就能做为一个模板项目。  
 现在直接克隆就再安装依赖。
 
 ```bash
@@ -166,7 +166,7 @@ export default {
   unstable_wrapCallback
 ```
 
-因为其实上面这些东西它是从 src/3rd-party/react/packages/scheduler/src/forks/Scheduler.js 同级目录中的 SchedulerMock.js
+因为其实上面这些东西它是从 `src/3rd-party/react/packages/scheduler/src/forks/Scheduler.js` 同级目录中的 `SchedulerMock.js`
 文件中引入的，
 只不过我们 fork 的这个 react 没有构建，所以跟平常使用时的结构有点不一样。  
 总之先改一下 **src/3rd-party/react/packages/scheduler/src/forks/Scheduler.js** 再说，
@@ -250,3 +250,7 @@ export default React;
 ```
 
 至此，应该是没什么问题了。
+
+## 学习历程
+
+[0x01. 从 JSX 开始](./docs/0x01.%20从%20JSX%20开始.md)
