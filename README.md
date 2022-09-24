@@ -254,3 +254,4 @@ export default React;
 ## 学习历程
 
 [0x01. 从 JSX 开始](./docs/0x01.%20从%20JSX%20开始.md)
+[0x02. Component](./docs/0x02.%20Component.md)
