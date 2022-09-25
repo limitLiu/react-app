@@ -27,9 +27,18 @@
   }
 
   .App-link {
+    line-height: 0.4rem;
     font-size: 0.24rem;
     color: #61dafb;
     text-decoration: none;
+  }
+
+  .App-btn {
+    border: none;
+    background-color: transparent;
+    line-height: 0.4rem;
+    font-size: 0.24rem;
+    color: #61dafb;
   }
 }
 
