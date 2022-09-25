@@ -1,10 +1,11 @@
 import React from "react";
-import { RefDemo } from './components';
+import { RefDemo, ContextDemo } from './components';
 
 export function App() {
   return (
-    <>
+    <div className="App">
       <RefDemo/>
-    </>
+      <ContextDemo/>
+    </div>
   );
 }
