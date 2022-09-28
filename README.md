@@ -259,3 +259,4 @@ export default React;
 [0x04. Context](./docs/0x04.%20Context.md)  
 [0x05. ReactChildren](./docs/0x05.%20ReactChildren.md)  
 [0x06. ReactDOM](./docs/0x06.%20ReactDOM.md)  
+[0x06. ReactFiber](./docs/0x07.%20ReactFiber.md)  
